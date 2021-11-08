@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_registrations",
+  "info": {
+    "name": "Site Registration"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}
